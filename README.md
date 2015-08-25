@@ -11,7 +11,6 @@
   * email link
   * same basic text style
 * create it as creative as you can
-* 
 
 ## 2. HTML Form
 * Create 2 HTML form to submit a specific data
@@ -25,7 +24,6 @@
 * create a HTML page to show the sumbitted data
   * myResult.html
   * show the hidden value
-  * 
 
 ## 3. HTML Index
 * Create a HTML index page (index.html) that contain a brief story about yourself (summary)
