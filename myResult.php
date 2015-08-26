@@ -82,7 +82,7 @@
 		</td>
 	</table>
 	<?php }?>
-	<br><a href="index.php?back=myCV.html">index</a>
+	<br><a href="index.php?back=myResult.php">index</a>
 </body>
 </html>
 
