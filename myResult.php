@@ -6,6 +6,7 @@
 <body>
 	<h2>Result</h2>
 	<?php if(isset($_POST['id'])){ ?>
+	<h3><?php echo $_POST['id']; ?></h3>
 	<table>
 		<tr>
 			<td>nama</td>
@@ -43,6 +44,7 @@
 		</td>
 	</table>
 	<?php }else{?>
+	<h3><?php echo $_GET['id']; ?></h3>
 	<table>
 		<tr>
 			<td>nama</td>
