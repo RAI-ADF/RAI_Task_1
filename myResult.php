@@ -82,6 +82,7 @@
 		</td>
 	</table>
 	<?php }?>
+	<br><a href="index.php?back=myCV.html">index</a>
 </body>
 </html>
 
