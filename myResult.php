@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>data</title>
@@ -13,22 +13,22 @@
 			<td>:</td>
 			<td><?php echo $_POST['nama']; ?></td>
 		</tr>
-		<td>
+		<tr>
 			<td>gender</td>
 			<td>:</td>
 			<td><?php echo $_POST['gender']; ?></td>
-		</td>
-		<td>
+		</tr>
+		<tr>
 			<td>gender</td>
 			<td>:</td>
 			<td><?php echo $_POST['gender']; ?></td>
-		</td>
-		<td>
+		</tr>
+		<tr>
 			<td>pekerjaan</td>
 			<td>:</td>
 			<td><?php echo $_POST['pekerjaan']; ?></td>
-		</td>
-		<td>
+		</tr>
+		<tr>
 			<td>keahlian</td>
 			<td>:</td>
 			<td>
@@ -36,12 +36,12 @@
 				echo $keah.' , ';
 				}?>
 			</td>
-		</td>
-		<td>
+		</tr>
+		<tr>
 			<td>komentar</td>
 			<td>:</td>
 			<td><?php echo $_POST['komentar']; ?></td>
-		</td>
+		</tr>
 	</table>
 	<?php }else{?>
 	<h3><?php echo $_GET['id']; ?></h3>
