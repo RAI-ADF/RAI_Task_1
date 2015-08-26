@@ -1,1 +1,56 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form 2</title>
+	<style type="text/css">
+		.top{
+			vertical-align: text-top;
+		}
+	</style>
+</head>
+<body>
+	<h2>Form 2</h2>
+	<form method="get">
+		<table border="0">
+			<tr>
+				<td>nama</td>
+				<td>:</td>
+				<td><input type="text" name="nama"></td>
+			</tr>
+			<tr>
+				<td>gender</td>
+				<td>:</td>
+				<td><input type="radio" name="gender" value="pria">Pria<input type="radio" name="gender" value="wanita">Wanita</td>
+			</tr>
+			<tr>
+				<td>Pekerjaan</td>
+				<td>:</td>
+				<td>
+					<select name="pekerjaan">
+						<option value="dosen">dosen</option>
+						<option value="mahasiswa">mahasiswa</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td class="top">kelompok keahlian</td>
+				<td class="top">:</td>
+				<td>
+					<input type="checkbox" name="keahlian" value="ICM">ICM<br>
+					<input type="checkbox" name="keahlian" value="SIDE">SIDE<br>
+					<input type="checkbox" name="keahlian" value="TELE">TELE<br>
+				</td>
+			</tr>
+			<tr>
+				<td class="top">Komentar</td>
+				<td class="top">:</td>
+				<td>
+					<textarea name="komentar" style="width:250px;height:80px;"></textarea>
+				</td>
+			</tr>
+		</table>
+		<button type="submit">kirim</button>
+	</form>
+</body>
+</html>
