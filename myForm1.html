@@ -4,36 +4,31 @@
 	<title>Form 1</title>
 </head>
 <body>
-	<table align="center" width="400">
-		<thead>
-			<tr>
-				<td align="center"><h1>Form 1</h1></td>
-			</tr>
-		</thead>
+	<h1 align="center">Form 1</h1>
+	<table align="center" width="400" cellpadding="12">
 		<tbody>
-			<tr>
-				<td>
-					<form action="" method="get">
-						<table>
-							<tr>
-								<td colspan="3"><input type="text" name="name" placeholder="name"></td>
-							</tr>
-							<tr>
-								<td><input type="radio" name="sex" value="male"> Male</td>
-								<td><input type="radio" name="sex" value="female"> Female</td>
-								<td><input type="radio" name="sex" value="other"> Other</td>
-							</tr>
-							<tr>
-								<td colspan="3"><input type="submit" value="submit"></td>
-							</tr>
-						</table>
-					</form>
-				</td>
-			</tr>
+			<form action="myResult.php" method="get">
+				<tr>
+					<td>Name</td>
+					<td colspan="2"><input type="text" name="name" style="width:100%"></td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td><input type="radio" name="gender" value="male"> Male</td>
+					<td><input type="radio" name="gender" value="female"> Female</td>
+				</tr>
+				<tr>
+					<td>Address</td>
+					<td colspan="2"><textarea style="width:100%;resize: none;" name="address" id="address" cols="30" rows="5"></textarea></td>
+				</tr>
+				<tr>
+					<td colspan="3"><input type="submit" value="submit"></td>
+				</tr>
+			</form>
 		</tbody>
 		<tfoot>
 			<tr>
-				<td>
+				<td colspan="3">
 					<hr>
 					<a href="index.html">Back to Index</a>
 				</td>
