@@ -4,7 +4,8 @@
 	<title>myForm1</title>
 </head>
 <body style="background-color:lightgrey">
-	<form method="POST" action="myResult.php">	
+	<form method="POST" action="myResult.php">
+	<input type="hidden" name="is_post" value=true>
 	<table border="0">
 	<tr>
 		<td>
@@ -14,6 +15,7 @@
 			:
 		</td>
 		<td>
+			<input type="hidden" name="nim" value="1103130173" />
 			<input type="text" name="currentActivity" />
 		</td>
 	</tr>
@@ -41,31 +43,15 @@
 	</tr>
 	<tr>
 		<td>
-			genre of music
+			<input type="checkbox" value="agree" name="agreement" />Agree to send the data
 		</td>
-		<td>
-			:
-		</td>
-		<td>
-			<input type="checkbox" value="rock" name="genreMusic" />rock
-			<input type="checkbox" value="jazz" name="genreMusic" />jazz
-			<input type="checkbox" value="pop" name="genreMusic" />pop
-			<input type="checkbox" value="punk" name="genreMusic" />punk
-		</td>
-	</tr>
-	
-	<tr>
-		<td>
-			
-		</td>
-		<td>
-			
-		</td>
+		<td></td>
 		<td>
 			<button type="reset" name="submit">Reset</button>
 			<button type="submit" name="submit">Submit</button>
 		</td>
 	</tr>
+	
 	
 	</table>
 	</form>
