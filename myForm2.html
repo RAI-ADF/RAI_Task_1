@@ -1,23 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Form 2</title>
+	<title>Form 2 : GET</title>
 </head>
 <body>
-	<table width="800" align="center">
-		<thead>
-			<tr>
-				<td>
-					<h1 align="center">My Form 2</h1>
-				</td>
-			</tr>
-		</thead>
+	<h1 align="center">Form 2 : GET</h1>
+	<table align="center" width="800" cellpadding="12">
 		<tbody>
-			
+			<form action="myResult.php" method="get">
+				<input name="nim" type="hidden" value="1103120042">
+				<tr>
+					<td>Name</td>
+					<td colspan="2">
+						<input type="text" name="name" style="width:100%">
+					</td>
+				</tr>
+				<tr>
+					<td>Occupation</td>
+					<td>
+						<select name="occupation" style="width:100%">
+							<option value="Unemployed">Unemployed</option>
+							<option value="Student">Student</option>
+							<option value="Lecturer">Lecturer</option>
+						</select> 
+					</td>
+				</tr>
+				<tr>
+					<td>Language</td>
+					<td colspan="2">
+						<input type="checkbox" name="language[]" value="English"> English
+						<input type="checkbox" name="language[]" value="Indonesian"> Indonesian
+						<input type="checkbox" name="language[]" value="Sundanese"> Sundanese
+					</td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="submit"> <input type="reset" value="reset"></td>
+				</tr>
+			</form>
 		</tbody>
 		<tfoot>
 			<tr>
-				<td>
+				<td colspan="3">
 					<hr>
 					<a href="index.html">Back to Index</a>
 				</td>
