@@ -1,0 +1,72 @@
+<!-- contain: image, table, listing, hypertext link to studentblog, email link, same basic text style -->
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>CV Sang Made Naufal</title>
+		<meta name="description" content="Task 1 RAI : Curricullum Vitae">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+	</head>
+
+	<body>
+		<div style="text-align: center; width: 100%; background-color: blue">
+			<h1 style="color: #FFFFFF">Sang Made Naufal Caesarya Mahardhika</h1>
+			<h3 style="color: #FFFFFF">S1 Teknik Informatika - Telkom University</h3>
+		</div>
+		
+		<br>
+		<br>
+		
+		<table align="center">
+			<tbody>
+				<tr>
+					<td style="font-size: 30px; align: center">Curriculum Vitae</td>
+				</tr>
+				<tr>
+					<td><img style="height: 300px; width: 200px; align: center" src="E:\Main 2 - Kuliah\Semester 7\RAI\Task 1\opal.jpg"></img></td>
+				</tr>
+			<tbody>
+		</table>
+		
+		<br>
+		<br>
+		
+		<table cellpadding="20" align="center">
+			<tbody>
+				<tr>
+					<td><b>Nama Panggilan</b></td>
+					<td>Opal</td>
+				</tr>
+				<tr>
+					<td><b>Riwayat Pendidikan</b></td>
+					<td>
+						<ul>
+							<li>SDN Pondok Kopi 04 - Jakarta Timur</li>
+							<li>SMPN 199 Jakarta</li>
+							<li>SMAN 103 Jakarta</li>
+							<li>Telkom University - S1 Teknik Informatika</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td><b>Email</b></td>
+					<td>
+						<ul>
+							<li><a href="mailto: nofalmade@gmail.com">Gmail</a></li>
+							<li><a href="mailto: nofalmade@students.telkomuniversity.ac.id">Tel-U</a></li>
+						<ul>
+					</td>
+				</tr>
+				<tr>
+					<td><b>Blog</b></td>
+					<td><a href="http://nofalmade.student.telkomuniversity.ac.id/">nofalmade | Telkom University</td>
+				<tr>
+			</tbody>
+			
+		</table>
+
+	</body>
+
+</html>
