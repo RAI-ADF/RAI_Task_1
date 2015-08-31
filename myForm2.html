@@ -1,1 +1,63 @@
 
+<html>
+<body>
+
+<form action="myResult.php" method="post" >
+	 <table>
+  <tr>
+      <td>Nama Lengkap</td>  
+      <td>:</td>
+      <td><input type="text" name="fname"></td>
+    </tr>   
+    <tr>
+      <td>Nama Panggilan</td> 
+      <td>:</td>
+      <td><input type="text" name="lname"></td>  
+    </tr>
+    <tr>
+      <td>Jenis Kelamin</td>
+      <td>:</td>
+      <td> 
+        <input type="radio" name="sex" value="Male">Male<br>
+      <input type="radio" name="sex" value="Female">Female
+    </td>
+  </tr>
+  <tr>
+    <td>Alamat</td>
+    <td>:</td>
+    <td><textarea rows="4" name = "address" cols="50"></textarea></td>
+  </tr>
+  <tr>
+    <td>Pekerjaan</td>
+    <td>:</td>
+    <td><select name="pekerjaan">
+        <option value="Karyawan">Karyawan</option>
+        <option value="Mahasiswa">Mahasiswa</option>
+        <option value="Pelajar">Pelajar</option>  
+        <option value="Lain-lain">Lain-lain</option>
+    </select></td>
+  </tr>
+
+    <tr>
+      <td>Kendaraan </td><td> :
+      </td>
+      <td>
+  <input type="checkbox" name="vehicle" value="Motor"> Motor<br>
+  <input type="checkbox" name="vehicle" value="Mobil"> Mobil<br>
+  </td>
+  
+  </tr>
+  <tr>
+  <td>
+      <input type="submit" value="Submit" name="submit">
+      <input type="reset" value="Reset">
+    </td>   
+    </tr> 
+
+
+  </table>
+<input type="hidden" name="nim" value="1103120138">
+
+</form>
+</body>
+</html>
