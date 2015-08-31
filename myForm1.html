@@ -1,1 +1,38 @@
 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>POST Form</title>
+</head>
+<body>
+	
+ <form action="myResult.php" method="POST">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+ gender <br>
+  <input type="radio" name="sex" value="male">Male<br>
+  <input type="radio" name="sex" value="female">Female<br>
+  <p>faculty : </p>
+  <select name="faculty">
+  <option value="FIF">FIF</option>
+  <option value="FRI">FRI</option>
+  <option value="FTE">FTE</option>
+  </select> 
+  <br>
+  description 
+  <br>
+   <textarea name="description" rows="4" cols="50">
+	</textarea> 
+  <br>
+  vehicle <br>
+  <input type="checkbox" name="vehicle" value="Bike"> I have a bike<br>
+  <input type="checkbox" name="vehicle" value="Car" checked> I have a car<br>
+  <input type="hidden" name="nim" value="1103120260">
+  <br>
+  <button name="submit" type="reset" value="Reset">Reset</button>
+  <input name="submit" 	type="submit" value="Submit">
+</form> 
+	
+</body>
+</html>
