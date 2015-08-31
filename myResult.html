@@ -1,1 +1,27 @@
+<html>
+<head> 
+	<title>My Result</title>
+	<link rel="shortcut icon" href="tia.png">
+</head>
 
+<body bgcolor="#E5E5E5" style="color:#3399FF">
+
+	<div style="width: 99%; color: #ffffff; background-color: #99CCFF; border: 2px solid #6699FF; padding: 5px;">
+		<h1 style="text-align:center">Result</h1>
+	</div>
+
+	<br>
+	<br>
+	
+	<div style="margin-left:60px">
+		Nama : <?php echo $_GET['Dname'].$_get["Bname"];?>
+		<br>
+		Jurusan : <?php echo $_GET["jurusan"];?>
+		<br>
+		Tanggal lahir : <?php   echo $_GET["tanggal"] . " - " .$_GET["bulan"]. " - " . $_GET["tahun"];?>
+		<br>
+		jenis kelamin : <?php   echo $_GET["jkelamin"]; ?>
+	</div>
+	
+</body>
+</html>
