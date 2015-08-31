@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<title>Form 1 GET</title>
+	</head>
 <body>
 
-<form action="myResult.html" method="get" target="_blank">
-	Nama : <input type="text" size="25" name="txtNama"/>
-	Pesan Anda : <input type="textarea" cols="20" rows="20" name="txtPesan"/>
-	<input type="submit" value="Submit">
-</form>
-
-
+<h1 align="center"><font color="DodgerBlue">Form Pendaftaran</font></h1>
+<table align="center" height="500" width="400" cellpadding="20">
+<tr>
+<td>
+	<form action="myResult.html" method="get" target="_blank">
+		Nama : <input type="text" size="25" name="txtNama" placeholder="Nama"/><br>
+		Umur : <input type="text" size="25" name="txtUmur" placeholder="Umur"/><br>
+		Jenis Kelamin :<br>
+		<input name="JK" value="lakilaki" type="radio"> Laki - laki<br>
+		<input name="JK" value="perempuan" type="radio"> Perempuan<br>
+		Device yang dimiliki :<br>
+		<input type="checkbox" name="device1"> Smartphone<br>
+		<input type="checkbox" name="device2"> Laptop<br>
+		<input type="checkbox" name="device3"> PC<br>
+		Kendaraan yang dimiliki :
+		<select name="kdr">
+		<option>Sepeda
+		</option><option>Motor
+		</option><option>Mobil
+		</option><option>Becak
+		</option></select><br>
+		Alasan daftar :<br>
+		<textarea cols=40 rows=6 name="alasan" placeholder="Alasan daftar"></textarea><br>
+		<input type="submit" value="Submit">
+	</form>
+</td>
+</tr>
+</table>
 </body>
-
 <p align="center"><a href="Index.html">About Me</a> - <a href="myForm1.html">Form 1</a> - <a href="myForm2.html">Form 2</a></p>
-
 </html>
 
