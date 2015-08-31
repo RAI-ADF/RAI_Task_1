@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM 2</title>
+</head>
+<body>
+	<form action="myResult.php" method="post">
+
+		<table>
+			<tr>
+				<td>Nama</td>
+				<td><input type="text" name="nama"></td>
+			</tr>
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td>
+					<input type="radio" name="jenis_kel" value="laki-laki" checked> Laki-Laki
+					<input type="radio" name="jenis_kel" value="perempuan"> Perempuan
+				</td>
+			</tr>
+			<tr>
+				<td>Kelas</td>
+				<td>
+					<select name="kelas">
+						<option value="IF-36-01">IF-36-01</option>
+						<option value="IF-36-02">IF-36-02</option>
+						<option value="IF-36-03">IF-36-03</option>
+						<option value="IF-36-04">IF-36-04</option>
+						<option value="IF-36-05">IF-36-05</option>
+						<option value="IF-36-06">IF-36-06</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Mata Kuliah</td>
+				<td>
+					<input type="checkbox" value="Kalkulus I" name="matkul[]">Kalkulus I<br>
+					<input type="checkbox" value="Fisika" name="matkul[]">Fisika<br>
+					<input type="checkbox" value="Alpro" name="matkul[]">Alpro<br>
+				</td>
+			</tr>
+			<tr>
+				<td>Deskripsi</td>
+				<td><textarea name="deskripsi"></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="reset" value="Reset">
+					<input type="submit" value="Kirim">
+				</td>
+			</tr>
+		</table>
+		
+		<input type="hidden" name="id" value="1103120057">
+		
+	</form>
+</body>
+</html>
 
