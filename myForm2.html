@@ -1,1 +1,64 @@
+<!DOCTYPE html5>
+<html>
+	<head>
+		<title>Form 1</title>
+		<link rel="stylesheet" type="text/css" href="style1.css">
+	</head>
+	<body>
+		<div id="content">
 
+			<div id="title">Form 1</div>
+			<form action="myResult.php" method="GET">
+				
+				<div class="formrow">
+					<label for="nama">Nama anda</label><br>
+					<input type="text" name="nama" size="40px" placeholder="Masukkan nama..."><br>
+				</div>
+
+				<div class="formrow">
+					<label for="jkelamin">Jenis kelamin</label><br>
+					<input type="radio" name="jkelamin" value="pria" checked> Pria <br>
+					<input type="radio" name="jkelamin" value="wanita"> Wanita <br>
+				</div>
+
+				<div class="formrow">
+					<label for="agama">Agama</label><br>
+					<select name="agama">
+						<option value="islam">Islam</option>
+						<option value="protestan">Protestan</option>
+						<option value="katolik">Katolik</option>
+						<option value="hindu">Hindu</option>
+						<option value="buddha">Buddha</option>
+						<option value="konghucu">Konghucu</option>
+						<option value="other">Lain-lain</option>
+					</select>
+				</div>
+				
+				<div class="formrow">
+					<label for="hobi">Hobi</label><br>
+					<input type="checkbox" name="hobi1" value="membaca"> Membaca <br>
+					<input type="checkbox" name="hobi2" value="olahraga"> Olahraga <br>
+					<input type="checkbox" name="hobi3" value="gaming"> Gaming <br>
+					<input type="checkbox" name="hobi4" value="travelling"> Travelling <br>
+					<input type="checkbox" name="hobi5" value="ngoding"> Ngoding <br>
+					<input type="checkbox" name="hobi1" value="other"> Lain-lain <br>
+				</div>
+
+				<div class="formrow">
+					<label for="pesan">Pesan Anda</label><br>
+					<textarea name="pesan" cols="50" rows="3" placeholder="Tulis pesan anda di sini..."></textarea>
+				</div>
+
+				<div class="formrow">
+					<input type="hidden" name="nim" value="1103120051"> 
+					<input type="submit" value="Submit Form">
+					<input type="reset" value="Reset Form">
+				</div>
+				
+			</form>
+			<div id="navigation">
+				<a href="Index.html">Back to Index</a>
+			</div>
+		</div>
+	</body>
+</html>
