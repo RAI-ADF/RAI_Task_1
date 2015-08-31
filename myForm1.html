@@ -1,1 +1,89 @@
+<!-- myForm1.html -->
+									
+<!DOCTYPE html>
 
+<html>
+	<head>
+		<title>CV Sang Made Naufal</title>
+			<meta name="description" content="Task 1 RAI : HTML Form 1">
+			<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	</head>
+	
+	<body>
+			<h1 style="font-size: 30px; text-align: center">Form 1: Data Pengunjung</h1>
+			
+		
+			<br>
+			<br>
+		
+			<form action="myResult.php" method="GET">		
+			
+				<table  cellspading="40" align="center">
+					<tbody>
+						<tr>
+							<td><b>NIM Admin (Hidden Value)</b></td>
+							<td><input type="hidden" name="nim" size="20" value="1103120146" placeholder="inputkan NIM anda"</td>
+						</tr>
+						
+						<tr>
+							<td><b>NIM Pengunjung</b></td>
+							<td><input type="text" name="nim" size="20" placeholder="inputkan NIM anda"</td>
+						</tr>
+						
+						<tr>
+							<td><b>Nama</b></td>
+							<td><input type="text" name="nim" size="20" placeholder="inputkan NIM anda"</td>
+						</tr>
+						
+						<tr>
+							<td><b>Program Studi</b></td>
+							<td>
+								<select name="tgl">
+									<option>-Prodi-</option>
+										<option value="tt">S1 Teknik Telekomunikasi</option>
+										<option value="if">S1 Teknik Informatika</option>
+										<option value="ti">S1 Teknik Industri</option>
+										<option value="te">S1 Teknik Elektro</option>
+										<option value="tf">S1 Teknik Fisika</option>
+										<option value="si">S1 Sistem Informasi</option>
+										<option value="sk">S1 Sistem Komputer</option>
+										<option value="ik">S1 Ilmu Komputasi</option>
+										<option value="dll">Lain-lain</option>
+												
+							</td>
+						</tr>
+						
+						<tr>
+							<td>Apakah anda mahasiswa/mahasiswi<br>Telkom University?</td>
+							<td><input type="radio" name="ask" value="Y">Ya
+								<input type="radio" name="ask" value="N">Tidak
+							</td>
+						</tr>
+						
+						<tr>
+							<td>Bahasa pemrograman apa saja<br>yang sudah anda kuasai?</td>
+							<td>
+								<input type="checkbox" name="programming" value="java">Java<br>
+								<input type="checkbox" name="programming" value="php">PHP<br>
+								<input type="checkbox" name="programming" value="html">HTML<br>
+								<input type="checkbox" name="programming" value="cplusplus">C++<br>
+								<input type="checkbox" name="programming" value="csharp">C#<br>
+								<input type="checkbox" name="programming" value="phyton">Phyton<br>
+								<input type="checkbox" name="programming" value="ruby">Ruby<br>
+							</td>
+						<tr>
+						
+						<tr>
+							<td></td>
+							<td><input type="submit" value="submit"></td>
+						</tr>
+						
+					</tbody>
+				</table>
+				
+			</form>
+		
+		
+	</body>
+
+</html>

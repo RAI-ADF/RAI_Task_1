@@ -1,1 +1,61 @@
+<!-- myResult.html -->
+<?php
+	define('dbname', 'wikifiesto');
+	define('dbuser', 'root');
+	define('dbpass', '');
+	define('dbhost', 'localhost');
 
+	$link = mysql_connect(dbhost, dbuser, dbpass);
+
+	if(!$link){
+		die('could not connect: ' . mysql_error());
+	}
+
+	$db_selected = mysql_select_db(dbname, $link);
+
+	if(!$db_selected){
+		die('can\'t use' . dbname . ': ' . mysql_error());
+	}
+
+	//$value = $_POST['name'];
+	$tgl = $_POST['tgl'];
+	$id_tiket = $_POST['id_tiket'];
+	$nama_solver = $_POST['nama_solver'];
+	$aplikasi = $_POST['aplikasi'];
+	$kategori = $_POST['kategori'];
+	$kasus = $_POST['kasus'];
+	$solusi = $_POST['solusi'];
+	$nama_user = $_POST['nama_user'];
+	$nik_user = $_POST['nik_user'];
+	
+	
+	$sql = "INSERT INTO wikicase (tgl, id_tiket, nama_solver, aplikasi, kategori, kasus, 
+			solusi, nama_user, nik_user) VALUES ('$tgl','$id_tiket','$nama_solver','$aplikasi',
+			'$kategori','$kasus','$solusi','$nama_user','$nik_user')";
+
+	if(!mysql_query($sql)){
+		die('Error : ' . mysql_error());
+	}
+
+
+	
+?>
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>CV Sang Made Naufal</title>
+			<meta name="description" content="Task 1 RAI : HTML My Form Result">
+			<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	</head>
+	
+	<body>
+		<div style="background-color: blue; height: auto; overflow: hidden">
+			<div style="width: 50px; float: right"><a style="color: #FFFFFF" href="E:\Main 2 - Kuliah\Semester 7\RAI\Task 1\myCV.html">My CV</a></div>
+			<div style="width: auto; float: none; overflow: hidden; color: #FFFFFF"><a style="color: #FFFFFF" href="E:\Main 2 - Kuliah\Semester 7\RAI\Task 1\myResult.html">My Result</a></div>
+		<div>
+	
+	</body>
+
+</html>
