@@ -1,1 +1,35 @@
-
+<html>
+   <head >
+      <title>Form Page: sampleform</title>
+   </head>
+<body bgcolor="" >
+	<table align="center" width="700px" style="border:2 solid " bordercolor="black" bgcolor="4682B4"> 
+		<tr> <td>
+			<h1 align="center">My Form 1</h1>
+			<form action="myResult.php" method="post" style="margin-left:140px" >
+				<input type="hidden" name="nim" value="1103121286">
+				<div style="margin-top:70px " >
+					<p> Nama Lengkap <input type="text" name="nama" style="margin-left:10px"></p>
+					<p style="vertical-align:top"> Alamat <textarea name="alamat" cols="40" rows="3" style="margin-left:60px"> </textarea> </p>
+					<p> No Telp. <input type="text" name="notelp" style="margin-left:50px"></p>
+					<p> Jenis Kelamin <input type="radio" name="jk" value="wanita" checked="checked" style="margin-left:15px"> Wanita </p>
+					<p>  <input type="radio" name="jk" value="lakilaki" style="margin-left:110px"> Laki-laki</p>
+					<p> Program Studi <input type="radio" name="ps" value="d3" style="margin-left:13px" checked="checked"> D3 <input type="radio" name="ps" value="s1" style="margin-left:20px"> S1 <input type="radio" name="ps" value="s2" style="margin-left:20px"> S2</p>
+					<p style="vertical-align:top"> Jurusan 
+						<select name="jurusan" style="margin-left:58px">
+							<option value="informatika"> Teknik Informatika </option> </br>
+							<option value="industri"> Teknik Industri </option> </br>
+							<option value="komputasi"> Ilmu Komputasi </option> </br>
+						</select>
+					</p>
+					<p> Hobi <input type="checkbox" name="hobi[]" style="margin-left:75px" value="Traveling"> Traveling <input type="checkbox" value="Hiking" name="hobi[]" style="margin-left:110px"> Hiking </p>
+					<p> <input type="checkbox" name="hobi[]" style="margin-left:110px" value="Games"> Games <input type="checkbox" name="hobi[]" style="margin-left:128px" value="Reading"> Reading </p>
+					<p> <input type="checkbox" name="hobi[]" style="margin-left:110px" value="Diving"> Diving </p>
+				</div>
+				</div>
+   				<p> <input type='submit' name='submitPost' value='SUBMIT' style="margin-left:100px" /> <input type='reset' name='reset' value='RESET' style="margin-left:30px"/> </p>
+			</form>
+		</td></tr>
+	</table>
+</body>
+</html>
