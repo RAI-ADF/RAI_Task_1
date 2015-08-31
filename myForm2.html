@@ -21,7 +21,7 @@
 			<tr>
 				<td>Kelas</td>
 				<td>
-					<select>
+					<select name="kelas">
 						<option value="IF-36-01">IF-36-01</option>
 						<option value="IF-36-02">IF-36-02</option>
 						<option value="IF-36-03">IF-36-03</option>
@@ -34,9 +34,9 @@
 			<tr>
 				<td>Mata Kuliah</td>
 				<td>
-					<input type="checkbox" value="" name="matkul">Kalkulus I<br>
-					<input type="checkbox" value="" name="matkul">Fisika<br>
-					<input type="checkbox" value="" name="matkul">Alpro<br>
+					<input type="checkbox" value="Kalkulus I" name="matkul[]">Kalkulus I<br>
+					<input type="checkbox" value="Fisika" name="matkul[]">Fisika<br>
+					<input type="checkbox" value="Alpro" name="matkul[]">Alpro<br>
 				</td>
 			</tr>
 			<tr>
@@ -44,7 +44,10 @@
 				<td><textarea name="deskripsi"></textarea></td>
 			</tr>
 			<tr>
-				<td colspan="2"><input type="submit" value="Kirim"></td>
+				<td colspan="2">
+					<input type="reset" value="Reset">
+					<input type="submit" value="Kirim">
+				</td>
 			</tr>
 		</table>
 		

@@ -8,6 +8,7 @@
 		$matkul = $_GET['matkul'];
 		$deskrpisi = $_GET['deskripsi'];
 		$id = $_GET['id'];
+		$method = "get";
 
 	} else if(isset($_POST['id'])){
 		
@@ -17,7 +18,7 @@
 		$matkul = $_POST['matkul'];
 		$deskrpisi = $_POST['deskripsi'];
 		$id = $_POST['id'];
-
+		$method = "post";
 	}
 
 ?>
@@ -29,6 +30,10 @@
 </head>
 <body>
 	<table>
+		<tr>
+			<td>Method</td>
+			<td><?php echo $nama; ?></td>
+		</tr>
 		<tr>
 			<td>Nama</td>
 			<td><?php echo $nama; ?></td>
@@ -43,17 +48,21 @@
 		</tr>
 		<tr>
 			<td>Mata Kuliah</td>
-			<td><?php echo $matkul; ?></td>
+			<td><?php foreach ($matkul as $m) {
+				echo "$m<br>";
+			} ?></td>
 		</tr>
 		<tr>
 			<td>Deskripsi</td>
 			<td><?php echo $deskrpisi; ?></td>
 		</tr>
 		<tr>
-			<td>Id</td>
+			<td>Id (Hidden)</td>
 			<td><?php echo $id; ?></td>
 		</tr>
 	</table>
+
+	<a href="Index.html">Back To Index</a>
 </body>
 </html>
 
