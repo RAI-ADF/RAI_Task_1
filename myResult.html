@@ -1,1 +1,25 @@
-
+<?PHP
+$nama=$_GET[nama];
+$lahir=$_GET[lahir];
+$jenis=$_GET[jenis];
+if ($_GET==$nama)
+{
+ echo"$nama";
+}
+else
+ if($_GET==$lahir)
+ {
+  echo"$lahir";
+ }
+ else
+  if($_GET==$jenis)
+  {
+   echo"$jenis";
+  }
+echo "<h1 align='center'>Biodata Ku<BR><BR></h1> ";
+echo"<PRE>";
+echo"         Nama Anda  : $nama<BR><BR>";
+echo"         Alamat Anda : $lahir<BR><BR>";
+echo"        Hobby Anda : $jenis
+</pre>";
+?>

@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body style="text-align:center">
 
+<h1>Form Registrasi</h1>
+<form action="myresult.html" method="post" style="font-size:110%">
+	Nama:<br>
+    <input type="text" name="nama" maxlength="40" size="40">
+    <br><br>
+    Username:<br> 
+    <input type="text" name="username" maxlength="12">
+    <br><br>
+    Password:<br>
+    <input type="password" name="pass" maxlength="12">
+    <br><br>
+    Tanggal Lahir:<br>
+    <input type="date" name="lahir">
+    <br><br>
+    Alamat:<br>
+    <textarea name="alamat" rows="3" cols="50"></textarea>
+    <br><br>
+    Jenis Kelamin:<br>
+    <input type="radio" name="jenis" value="laki" checked>
+    Laki-laki
+    <input type="radio" name="jenis" value="perempuan">
+    Perempuan<br><br>
+    Status:<br>
+    <select name="status">
+      <option value="jomblo">Jomblo</option>
+      <option value="digantung">Digantung</option>
+      <option value="ldr">LDR</option>
+      <option value="pdkt">PDKT</option>
+      <option value="nikah">Nikah</option>
+      <option value="takdir">Hidup itu keras</option>
+    </select><br>
+    <input type="hidden" name="id" value="1103120020">
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+
+</body>
+</html>
