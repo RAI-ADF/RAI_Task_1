@@ -1,1 +1,43 @@
+<head>
+<title>POST Form</title>
+</head>
+<body align="center">
+ <form action="myResult.php" method="POST">
+	<table align="center">
+	<th colspan=2>POST Form</th>
+	<tr>
+	<td>Nama Lengkap</td>
+	<td><input type="text" name="name" size="48"></td>
+	</tr>
+	<tr>
+	<td>NIM</td>
+	<td><input type="text" name="nim" size="48"></td>
+	</tr>
+	<tr>
+	<td>Jenis Kelamin</td>
+	<td><input type="radio" name="sex" value="Laki-Laki">Laki-Laki<br>
+		<input type="radio" name="sex" value="Perempuan">Perempuan<br></td>
+	</tr>
+	<tr>
+	<td>Nilai RAI pengen dapet</td>
+	<td><select name="nilai">
+		  <option value="A">A</option>
+		  <option value="B">B</option>
+		  <option value="C">C</option>
+		  <option value="D">D</option>
+		  <option value="E">E</option>
+		  </select> </td>
+	</tr>
+	<tr>
+	<td>Kesan dan Pesan</td>
+	<td><textarea name="kesan" rows="4" cols="50" placeholder="Tulis kesan dan pesan selama mengikuti kuliah RAI"></textarea></td>
+	</tr>
+	</table>
 
+  
+  
+  <button name="submit" type="reset" value="Reset">Reset</button>
+  <input name="submit" 	type="submit" value="Submit">
+</form> 
+</body>
+</html>
