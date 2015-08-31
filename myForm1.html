@@ -1,1 +1,88 @@
-
+<!DOCTYPE html>
+<html>
+	<head>
+	<title> myForm1 </title>
+	</head>
+	
+	<body>
+	
+	<center>
+			<h1>
+				myForm1 <br>
+				POST
+			</h1>
+	</center>
+	
+	<form action="myResult.php" method="post">
+	<input type="hidden" name="nim" value="1103120192">
+	
+	<table align="center" border="0">
+	<tr>
+		<td width="100">
+			Nama
+		</td>
+		
+		<td width="100">
+			<input type="text" name="nama">
+		</td>
+	</tr>
+	
+	<tr>
+		<td width="100">
+			Jenis
+		</td>
+		
+		<td width="100">
+			<input type="radio" name="jenis" value="jaket"> Jaket
+		</td>
+		
+		<td width="100">
+			<input type="radio" name="jenis" value="baju"> Baju
+		</td>
+		
+		<td width="100">
+			<input type="radio" name="jenis" value="kaos"> Kaos
+		</td>
+	</tr>
+	
+	<tr>
+		<td width="100">
+			Ukuran
+		</td>
+		
+		<td width="100">
+			<select name="ukuran" style="width:100%">
+				<option value="S">S</option>
+				<option value="M">M</option>
+				<option value="L">L</option>
+				<option value="XL">XL</option>
+			</select>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>
+			Alamat
+		</td>
+		
+		<td colspan="3">
+			<textarea style="width:100%;resize: none;" name="alamat" cols="30" rows="5"></textarea>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>
+			<input type="submit" value="submit">
+		</td>
+		
+		<td>
+			<input type="reset" value="reset">
+		</td>
+	</tr>
+	
+	</table>
+	
+	<a href="index.html">Index</a>
+		
+	</body>
+</html>

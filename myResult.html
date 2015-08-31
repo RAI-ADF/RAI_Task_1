@@ -1,1 +1,28 @@
-
+<?php
+	if(isset($_POST['nama'])){
+		echo $_POST["nama"]; 
+		echo "<br>";
+		echo $_POST["jenis"];
+		echo "<br>";
+		echo $_POST["ukuran"]; 
+		echo "<br>";
+		echo $_POST["alamat"]; 
+	}
+		
+	if(isset($_GET['nama'])){
+		echo $_GET["nama"]; 
+		echo "<br>";
+		echo $_GET["keahlian"]; 
+		echo "<br>";
+		echo $_GET["keahlian1"]; 
+		echo "<br>";
+		echo $_GET["keahlian2"]; 
+		echo "<br>";
+		echo $_GET["keahlian3"]; 
+		echo "<br>";
+		echo $_GET["keahlian4"];
+	}	
+?>
+	
+	<br>
+	<a href="index.html">Index</a>
