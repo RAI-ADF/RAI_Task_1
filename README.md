@@ -29,3 +29,5 @@
 * Create a HTML index page (index.html) that contain a brief story about yourself (summary)
 * add links to go to the previous web pages
 * Add link in myCV.html page and myResult.html page to go back to index
+
+cek..
