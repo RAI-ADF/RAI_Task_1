@@ -1,1 +1,56 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title>myForm2</title>
+</head>
+<body>
+	<h1 align="center">myForm2</h1>
+	<table align="center" width="800" cellpadding="2">
+		<tbody>
+			<form action="myResult.php" method="get">
+				<input name="nim" value="1103121273" type="hidden">
+				<tr>
+					<td>Nama</td>
+					<td colspan="2">
+						<input name="nama" type="text">
+					</td>
+				</tr>
+				<tr>
+					<td>Topik Tugas Akhir</td>
+					<td>
+						<input type="radio" name="topik" value="ICM"> ICM
+					</td>
+					<td>
+						<input type="radio" name="topik" value="SIDE"> SIDE
+					</td>
+          <td>
+						<input type="radio" name="topik" value="TELE"> TELE
+					</td>
+				</tr>
+				<tr>
+					<td>Abstraksi TA</td>
+					<td colspan="2">
+						<textarea style="width:80%;resize: none;" name="abstrak" cols="30" rows="5"></textarea>
+					</td>
+				</tr>
+				<tr>
+          <br/>
+          <td/>
+					<td>
+            <input type="submit" value="submit" style="width:100%">
+          </td>
+				</tr>
+			</form>
+		</tbody>
+		<tfoot>
+			<tr>
+        <td/>
+				<td align="center">
+					<hr>
+					<a href="Index.html">Kembali</a>
+				</td>
+			</tr>
+		</tfoot>
+	</table>
+</body>
+</html>
