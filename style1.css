@@ -1,0 +1,66 @@
+@font-face {
+    font-family: perpetua;
+    src: url(PER_____.TTF);
+}
+
+body {
+   background-image: url("honeycomb-bg.jpg");
+   font-family: arial;
+}
+
+#content {
+	border-radius: 15px;
+	
+	background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    margin: 3% 15% 10% 15% ;
+}
+
+#title {
+	font-family: perpetua;
+	font-size: 3em;
+	text-align: center;
+	letter-spacing: 2px;
+	margin:50px 0px 70px 0px;
+}
+
+#navigation {
+	text-align: left;
+	margin: 20px 50px;
+}
+
+a {
+	color:#111;
+}
+
+#summary {
+	text-align: justify;
+	font-size: 0.9em;
+	margin-left: 180px;
+}
+
+.formrow {
+	margin: 30px 50px;
+}
+
+input,textarea,select {
+	margin: 8px 0px 10px 0px;
+}
+
+label {
+	margin:8px 0px;
+}
+
+.photo {
+	float: left;
+	margin: 0px;
+}
+
+#contact {
+	font-size: 1em;
+}
+
+pre {
+	font-family: sans-serif;
+    margin: 0;
+}
