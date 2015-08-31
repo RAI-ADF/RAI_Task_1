@@ -1,1 +1,41 @@
-
+<html>
+	<head>
+		<title>Form 1</title>
+	</head>
+	<body background="back.jpg">
+		<h1 align="center"><font face="Cambria" size="36px"color="red">FORM 1</font></h1>
+		<hr size="6px" color=black></hr>
+		<font face="Calibri">
+			<form  action=" myResult.php" method="get">
+				<table align="center" width="500" align="left" cellpadding="3" cellspacing="0">
+					<tr><td>Nama</td> <td><input type="text" name="nama" /></td></tr>
+					<input type="hidden" name="nim" value="1103120046">
+					<tr><td>Jenis Kelamin</td> 
+						<td>
+							<input type="radio" name="jenis_kelamin" value="laki-laki" checked>Laki-Laki
+							<input type="radio" name="jenis_kelamin" value="perempuan"> Perempuan
+						</td>
+					</tr>
+					<tr>
+					<td>Pengguna Smartphone</td>
+						<td><select name="smartphone">
+							<option></option>
+							<option value="iya">Iya</option>
+							<option value="tidak">Tidak</option>
+						</select></td>
+					</tr>
+					<tr><td>Akun Sosmed</td>
+						<td><input type="checkbox" name="bbm">BBM
+						<input type="checkbox" name="line">LINE
+						<input type="checkbox" name="instagram">Instagram
+						<input type="checkbox" name="path">Path</td></tr>
+					<tr><td>Alasan Menggunakan Sosmed</td>
+					<td><textarea name="alasan" rows="8" cols="40"></textarea></td></tr>
+					<tr><td></td>
+					<td><input type="submit" value="Submit"></input>
+						<input type="reset" value="Reset"></td></tr>
+ 		</form>
+		
+		</font>
+	</body>
+</html>
