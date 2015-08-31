@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<title>Daftar Form</title>
+
+		<link href="base.css" rel="stylesheet" type="text/css" />
+		<link href="daftar.css" rel="stylesheet" type="text/css" />
+
+	</head>
+	<body>
+		<div class="pr header">
+			<div class="rk">
+				RODA KAMPUS
+			</div>
+		</div>
+		
+		<div class="pr container">
+			<div class="pr main">
+				<div class="pa trans">
+				</div>
+				<div class="judul">
+				<center>Form Registrasi</center>
+				</div>
+
+				<form name="login-form" class="pr login-form" action="" method="post">
+
+					<div class="atas">
+							<span>Wajib diisi semua</span>
+					</div>
+					
+
+					<div class="content">
+						<input name="username" type="text" class="input" placeholder="Username" maxlength="20"required/>
+						<input name="password" type="password" class="input" placeholder="Password" maxlength="20" required/>
+						<input name="password2" type="password" class="input" placeholder="Ulangi Password" maxlength="20" required/>
+						<input name="nim" type="text" class="input" placeholder="NIM" maxlength="20" required/>
+						<input name="namadepan" type="text" class="input" placeholder="Nama Depan" maxlength="20" required/>
+						<input name="namabelakang" type="text" class="input" placeholder="Nama Belakang" maxlength="20" />
+						<input name="email" type="email" class="input" placeholder="E-Mail" required/>
+						<input name="kelamin" type="radio" class="rr" placeholder="l"required/> <span>Pemuda </span>
+						<input name="kelamin" type="radio" class="rr" placeholder="p"required/> <span>Gadis </span>
+						<input name="tempatlahir" type="text" class="input" placeholder="Tempat lahir" maxlength="20" required/>
+						<select name="tgllahir" class="lahir">
+							<option value="001">1</option>
+							<option value="002">2</option>
+							<option value="003">3</option>
+							<option value="004">4</option>
+							<option value="005">5</option>
+							<option value="006">6</option>
+							<option value="007">7</option>
+							<option value="008">8</option>
+							<option value="009">9</option>
+							<option value="010">10</option>
+							<option value="011">11</option>
+							<option value="012">12</option>
+							<option value="013">13</option>
+							<option value="014">14</option>
+							<option value="015">15</option>
+							<option value="016">16</option>
+							<option value="017">17</option>
+							<option value="018">18</option>
+							<option value="019">19</option>
+							<option value="020">20</option>
+							<option value="021">21</option>
+							<option value="022">22</option>
+							<option value="023">23</option>
+							<option value="024">24</option>
+							<option value="025">25</option>
+							<option value="026">26</option>
+							<option value="027">27</option>
+							<option value="028">28</option>
+							<option value="029">29</option>
+							<option value="030">30</option>
+							<option value="031">31</option>
+						</select>
+						<select name="blnlahir" class="lahir">
+							<option value="001">Januari</option>
+							<option value="002">Februari</option>
+							<option value="003">Maret</option>
+							<option value="004">April</option>
+							<option value="005">Mei</option>
+							<option value="006">Juni</option>
+							<option value="007">Juli</option>
+							<option value="008">Agustus</option>
+							<option value="009">September</option>
+							<option value="010">Oktober</option>
+							<option value="011">November</option>
+							<option value="012">Desember</option>
+						</select>
+						<select name="thnlahir" class="lahir">
+							<option value="1990">1990</option>
+							<option value="1991">1991</option>
+							<option value="1992">1992</option>
+							<option value="1993">1993</option>
+							<option value="1994">1994</option>
+							<option value="1995">1995</option>
+							<option value="1996">1996</option>
+							<option value="1997">1997</option>
+							<option value="1998">1998</option>
+							<option value="1999">1999</option>
+						</select>
+						<input name="noktp" type="text" class="input" placeholder="Nomor KTP" maxlength="20" required/>
+						<input name="nohp" type="text" class="input" placeholder="Nomor Handphone" maxlength="20" required/>
+						<input name="alamat" type="text" class="input" placeholder="Alamat kosan / asrama" maxlength="50" required/>
+						<input name="alamat" type="text" class="input" placeholder="Nama gedung + no Kamar" maxlength="20" required/>
+						<select name="jurusan" class="cmbox">
+							<option value="001">S1 Teknik Telekomunikasi</option>
+							<option value="002">S1 Teknik Elektro</option>
+							<option value="003">S1 Teknik Sistem Komputer</option>
+							<option value="004">S1 Teknik Fisika</option>
+							<option value="005">S1 Teknik Industri</option>
+							<option value="006">S1 Sistem Informasi</option>
+							<option value="007">S1 Teknik Informatika</option>
+							<option value="008">S1 Ilmu Komputasi</option>
+							<option value="009">S1 Intl ICT Business</option>
+							<option value="011">S1 MBTI</option>
+							<option value="012">S1 Akuntansi</option>
+							<option value="013">S1 Administrasi Bisnis</option>
+							<option value="014">S1 Desain Komunikasi Visual</option>
+							<option value="015">S1 Desain Produk</option>
+							<option value="016">S1 Desain Interior</option>
+							<option value="017">S1 Kriya Tekstik dan Mode</option>
+							<option value="018">S1 Seni Rupa Murni</option>
+							<option value="019">D3 Manajemen Informatika</option>
+							<option value="020">D3 Teknik Komputer</option>
+							<option value="021">D3 Komputerisasi Akuntansi</option>
+							<option value="022">D3 Teknik Informatika</option>
+							<option value="023">D3 Teknik Telekomunikasi</option>
+							<option value="024">D3 Manajemen Pemasaran</option>
+						</select>
+						<span>
+						Angkatan
+						</span>
+						<select name="jurusan" class="cmbox">
+							<option value="10">2010</option>
+							<option value="12">2011</option>
+							<option value="13">2012</option>
+							<option value="14">2013</option>
+							<option value="15">2014</option>
+							<option value="16">2015</option>
+						</select>
+						
+					</div>
+					
+					<div class="bawah">
+						<input type="submit" name="submit" value="Submit" class="button button2" />
+					</div>
+
+				</form>
+			</div>			
+		</div>
+		
+		<div class="pr footer">
+		</div>
+
+		<img src="gmbr/logo.png" class="pa logo"alt="gmbr/logo.png">
+	</body>
+</html>
