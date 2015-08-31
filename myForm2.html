@@ -1,1 +1,29 @@
+<head>
+<title>POST Form</title>
+</head>
+<body align="center">
+ <form action="myResult.php" method="GET">
+	<table align="center">
+	<th colspan=2>GET Form</th>
+	<tr>
+	<td>Makanan Favorit</td>
+	<td><input type="checkbox" name="makanan" value="nasgor">Nasi Goreng<br>
+		<input type="checkbox" name="makanan" value="mie">Indomie<br></td>
+	</tr>
+	<tr>
+	<td>Berapa Porsi?</td>
+	<td><input type="number" name="porsi" min="1" max="100"></td>
+	</tr>
+	<tr>
+	<td>Yg ini hidden</td>
+	<td><input type="hidden" name="nim" value="1103110123"></td>
+	</tr>
+	</table>
 
+  
+  
+  <button name="submit" type="reset" value="Reset">Reset</button>
+  <input name="submit" 	type="submit" value="Submit">
+</form> 
+</body>
+</html>
