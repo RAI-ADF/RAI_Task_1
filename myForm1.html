@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body style="text-align:center">
 
+<h1>Form Pengunjung</h1>
+<form action="myresult.php" method="get" style="font-size:110%">
+    Nama:<br>
+    <input type="text" name="nama" maxlength="40" size="40">
+    <br><br>
+    Tanggal Lahir:<br>
+    <input type="date" name="lahir">
+    <br><br>
+    Jenis Kelamin:<br>
+    <input type="radio" name="jenis" value="laki" checked>
+    Laki-laki
+    <input type="radio" name="jenis" value="perempuan">
+    Perempuan<br><br>
+    Hobi:<br>
+    <select name="hobi">
+      <option value="neet">NEET</option>
+      <option value="otaku">Otaku</option>
+      <option value="hikimori">Hikikimori</option>
+      <option value="selfie">Selfie</option>
+      <option value="jones">Jones</option>
+      <option value="pelangi">Pelangi</option>
+    </select><br><br>
+    Pilih Sifatmu:<br>
+    <input type="checkbox" name="sifat1" value="baik">Baik 
+    <input type="checkbox" name="sifat2" value="jahat">Jahat 
+    <input type="checkbox" name="sifat3" value="kawai">Kawaii<br>
+    <input type="checkbox" name="sifat4" value="mesum">Mesum 
+    <input type="checkbox" name="sifat5" value="kampret">Kampret 
+    <input type="checkbox" name="sifat6" value="tampan">Tampan<br>
+    <input type="hidden" name="id" value="1103120020">
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+
+</body>
+</html>
