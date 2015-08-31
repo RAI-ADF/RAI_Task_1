@@ -1,1 +1,41 @@
 
+ <!DOCTYPE html>
+<html>
+<head>
+<title>form 1</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<h1><center>Form 1</center></h1>
+<form action="form2.php" method="get">
+	<table style="width:100%">
+	<tr><td>Nama </td><td><input type="text" name="nama"></tr>
+	<tr><td>alamat </td><td><input type="text" name="alamat"></tr>
+	<tr><td>jenis kelamin</td>
+	<td><input type="radio" name="jk" value="laki" checked>laki
+	<input type="radio" name="jk" value="perempuan">perempuan</td>
+	<br>
+	<tr><td>Motto</td><td><textarea name="motto" rows="5" cols="20">motto area</textarea></td></tr>
+	<br>
+	<tr><td>pendidikan terakhir</td>
+	<td>
+	<select name="pendidikan">
+    <option value="s1">s1</option>
+    <option value="s2">s2</option>
+    <option value="s3">3</option>
+	</td>
+	</tr>
+	<tr><td>bahasa </td><td><br><input type="checkbox" name="php">indonesia
+	<br><input type="checkbox" name="inggris">inggris	
+	<br><input type="checkbox" name="minang">minang</tr>
+	</select>
+	</table>
+	<br><br>
+	<input type="submit">
+</form>
+
+	
+
+
+</body>
+</html> 
