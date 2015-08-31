@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form 2</title>
+	<style>
+	body{background-color:#C5EFF7;font-family:"Calibri"}
+	input[type=text]:focus, textarea:focus{box-shadow: 0 0 5px #CF000F;border: 1px solid #CF000F;}
+	</style>
+</head>
+<body>
+	<h1>Profil Mahasiswa</h2>
+	<form action="myResult.html" method="get">
+	<div>
+		<label>Nama</label><br>
+		<input type="text" id="nama" name="nama"><br><br>
+	</div>
+	<div>
+		<label>Angkatan</label><br>
+		<select name="angkatan">
+		<option value="2011" selected>2011</option>
+		<option value="2012">2012</option>
+		<option value="2013">2013</option>
+		<option value="2014">2014</option>
+		<option value="2015">2015</option>
+	  </select><br><br>
+	</div>
+	<div>
+		<label>Jenis Kelamin</label><br>
+		<input type="radio" name="jenis" checked>Laki-laki
+		<input type="radio" name="jenis">Perempuan<br><br>
+	</div>
+	<div>
+		<label>UKM seperti apa yang menurut Anda menarik?</label>
+		<br>
+		<input type="checkbox" name="ukm1">Olaharaga
+		<br>
+		<input type="checkbox" name="ukm2">Budaya
+		<br>
+		<input type="checkbox" name="ukm3">Lainnya <input type="text" name="lain"><br><br>
+	</div>
+
+	<div>
+		<input type="submit" name="submit" value="Submit">
+		<input type="reset" name="reset" value="Reset">
+	</div>
+	</form>
+</body>
+</html>
 
