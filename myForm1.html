@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1103120159-Komentar</title>
+	<style type="text/css">
+	h1	{background-color:darkorange;  font-family: verdana; color: white}
+	h2	{font-family: verdana; color: white;}
+	h3	{font-family: verdana; color: white;}
+	td 	{font-family: verdana}
+	form{width:500px;}
+	</style>
+</head>
+<body bgcolor="orange">
+<div align="left">
+	<h1>KOMENTAR</h1>
+	<form action="myResult.php" method="GET" id="komentar">
+		<table>
+		<tr>
+			<td>Nama:</td>
+			<td> <input type="text" name="nama" value="" /></td>
+		</tr>
+		<tr>
+			<td>Angkatan:</td>
+			<td>
+			<input type="radio" name="angkatan" value"Tua"  />Tua
+			</br><input type="radio"	name="angkatan" value"Muda" />Muda
+			</td>	
+		</tr>
+		<tr>
+			<td>Warna Favorit:</td>
+			<td>	
+			<input type="checkbox" name="warna" value="Biru" /> Biru
+			<input type="checkbox" name="warna" value="Orange" /> Orange 
+			</td>
+		</tr>
+		<tr>
+			<td>Komentar:</td>
+			<td><textarea name="komentar" cols="30" rows="3"/></textarea>
+			</td>
+			</tr>
+		<tr>	
+			<td>Rating Website:</td>
+			<td><select name="rating">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select></td>
+		</tr>
 
+			<input type="hidden" name="hiddenField" value="1103120159">	
+		<tr>
+			<td><input type="submit" name="submit" value="Submit"></td>	
+			<td><input type="reset" name="reset" value="Reset"></td>
+		</tr>
+		</table>
+	</form>
+</div>
+</body>
+</html>

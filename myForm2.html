@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1103120159-Leave your Message Here</title>
+	<style type="text/css">
+	h1	{background-color:green;  font-family: verdana; color: white}
+	h2	{font-family: verdana; color: white;}
+	h3	{font-family: verdana; color: white;}
+	td 	{font-family: verdana}
+	form{width:500px;}
+	</style>
+</head>
+<body bgcolor="lightgreen">
+<div align="left">
+	<h1>PESAN</h1>
+	<form action="myResult.php" method="POST" id="message">
+		<table>
+		<tr>
+			<td>Nama:</td>
+			<td> <input type="text" name="nama" value="" /></td>
+		</tr>
+		<tr>
+			<td>Jenis Kelamin:</td>
+			<td>
+			<input type="radio" name="jeniskelamin" value"Pria"/>Pria
+			<input type="radio"	name="jeniskelamin" value"Wanita"/>Wanita
+			</td>	
+		</tr>
+		<tr>
+			<td>Jenjang Pendidikan:</td>
+			<td>	
+			<br><input type="checkbox" name="jp" value="SD" /> SD
+			<br><input type="checkbox" name="jp" value="SMP" /> SMP
+			<br><input type="checkbox" name="jp" value="SMA" /> SMA
+			<br><input type="checkbox" name="jp" value="Perguruan Tinggi" /> Perguruan Tinggi
+			</td>
+		</tr>
+		<tr>
+			<td>Message:</td>
+			<td><textarea name="message" cols="30" rows="3"/></textarea>
+			</td>
+			</tr>
+		<tr>	
+			<td>Rating Website:</td>
+			<td><select name="rating">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select></td>
+		</tr>
 
+			<input type="hidden" name="hiddenField" value="1103120159">	
+		<tr>
+			<td><input type="submit" name="submit" value="Submit"></td>	
+			<td><input type="reset" name="reset" value="Reset"></td>
+		</tr>
+		</table>
+	</form>
+</div>
+</body>
+</html>
