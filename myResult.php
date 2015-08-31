@@ -17,29 +17,29 @@
 	</center>
 	<div style="margin-left: 200px">
 		<p>
-		<br>Nama : <?php echo $_REQUEST['nama']; ?>
+			<br>Nama : <?php echo $_REQUEST['nama']; ?>
 
-		<br>Alamat : <?php echo $_REQUEST['alamat']; ?>
-		
-		<br>Jenis Kelamin : <?php echo $_REQUEST['kelamin']; ?>
-		
-		<br>Keahlian yang dimiliki :<?php
-				if (count($_REQUEST['chek']) == 0) {
-					echo "Nothing";
-				} else {
-					for ($i=0; $i < count($_REQUEST['chek']); $i++) {
-					echo $_REQUEST['chek'][$i];
+			<br>Alamat : <?php echo $_REQUEST['alamat']; ?>
+			
+			<br>Jenis Kelamin : <?php echo $_REQUEST['kelamin']; ?>
+			
+			<br>Keahlian yang dimiliki :<?php
+					if (count($_REQUEST['chek']) == 0) {
+						echo "Nothing";
+					} else {
+						for ($i=0; $i < count($_REQUEST['chek']); $i++) {
+						echo $_REQUEST['chek'][$i];
+						}
 					}
-				}
-				
-			?>
-		
-		<br>Divisi yang dipilih : <?php echo $_REQUEST['divisi']; ?>
+					
+				?>
+			
+			<br>Divisi yang dipilih : <?php echo $_REQUEST['divisi']; ?>
 
-		<br>
-		<br>
-		<i>Created by <?php $_REQUEST['myNIM']; ?></i>
-	</p>
+			<br>
+			<br>
+			<i>Created by <?php echo $_REQUEST['myNIM']; ?></i>
+		</p>
 		<br>
 		<br>
 		<br>
