@@ -1,115 +1,89 @@
+<!-- myForm1.html -->
+									
+<!DOCTYPE html>
+
 <html>
-<head>
-	<title>My Form1</title>
-	<link rel="shortcut icon" href="tia.png">
-</head>
-
-<body bgcolor="#E5E5E5" style="color:#3399FF">
-
-	<div style="width: 99%; color: #ffffff; background-color: #99CCFF; border: 2px solid #6699FF; padding: 5px;">
-		<h1 style="text-align:center">Log in Account</h1>
-	</div>
-
-	<br>
-	<br>
+	<head>
+		<title>CV Sang Made Naufal</title>
+			<meta name="description" content="Task 1 RAI : HTML Form 1">
+			<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	</head>
 	
-	<form action="myResult.html" method="GET" style="margin-left:500px">
-			<p><b>Masukkan Data</b></p>
-				<input type="text" Name="Dnama" size="20" placeholder="Nama Depan">
-				<input type="text" Name="Bnama" size="20" placeholder="Nama Belakang"><br><br>
-				<input type="text" Name="jurusan" size="45" placeholder="Jurusan"><br><br>
-				<!--<input type="hidden" name="Language" value="English">-->
-			<p><b> Tanggal Lahir </b></p>
+	<body>
+			<h1 style="font-size: 30px; text-align: center">Form 1: Data Pengunjung</h1>
 			
-			<select name="tanggal">
-				<option>-Tanggal-</option>
-				<option value="1">1</option>
-				<option value="2">2</option>
-				<option value="3">3</option>
-				<option value="4">4</option>
-				<option value="5">5</option>
-				<option value="6">6</option>
-				<option value="7">7</option>
-				<option value="8">8</option>
-				<option value="9">9</option>
-				<option value="10">10</option>
-				<option value="11">11</option>
-				<option value="12">12</option>
-				<option value="13">13</option>
-				<option value="14">14</option>
-				<option value="15">15</option>
-				<option value="16">16</option>
-				<option value="17">17</option>
-				<option value="18">18</option>
-				<option value="19">19</option>
-				<option value="20">20</option>
-				<option value="21">21</option>
-				<option value="22">22</option>
-				<option value="23">23</option>
-				<option value="24">24</option>
-				<option value="25">25</option>
-				<option value="26">26</option>
-				<option value="27">27</option>
-				<option value="28">28</option>
-				<option value="29">29</option>
-				<option value="30">30</option>
-				<option value="31">31</option>
-			</select>
-			
-			<select name="bulan">
-				<option>-Bulan-</option>
-				<option value="1">Januari</option>
-				<option value="2">Februari</option>
-				<option value="3">Maret</option>
-				<option value="4">April</option>
-				<option value="5">Mei</option>
-				<option value="6">Juni</option>
-				<option value="7">Juli</option>
-				<option value="8">Agustus</option>
-				<option value="9">September</option>
-				<option value="10">Oktober</option>
-				<option value="11">November</option>
-				<option value="12">Desember</option>
-			</select>
-			
-			<select name="tahun">
-				<option>-Tahun-</option>
-				<option value="1990">1990</option>
-				<option value="1991">1991</option>
-				<option value="1992">1992</option>
-				<option value="1993">1993</option>
-				<option value="1994">1994</option>
-				<option value="1995">1995</option>
-				<option value="1996">1996</option>
-				<option value="1997">1997</option>
-				<option value="1998">1998</option>
-				<option value="1999">1999</option>
-				<option value="2000">2000</option>
-				<option value="2001">2001</option>
-				<option value="2002">2002</option>
-				<option value="2003">2003</option>
-				<option value="2004">2004</option>
-				<option value="2005">2005</option>
-				<option value="2006">2006</option>
-				<option value="2007">2007</option>
-				<option value="2008">2008</option>
-				<option value="2009">2009</option>
-				<option value="2010">2010</option>
-				<option value="2011">2011</option>
-				<option value="2012">2012</option>
-				<option value="2013">2013</option>
-				<option value="2014">2014</option>
-				<option value="2015">2015</option>
-			</select>
+		
 			<br>
 			<br>
-	<input type="radio" name="jkelamin" value="L">Laki Laki
-	<br>
-	<input type="radio" name="jkelamin" value="P">Perempuan
-	<br>
-	<br>
-	<input value="Kirim" style="background-color: #3399FF; height: 30; width: 100; margin-left:100px;" type="submit">
-</form>
+		
+			<form action="myResult.php" method="GET">		
+			
+				<table  cellspading="40" align="center">
+					<tbody>
+						<tr>
+							<td><b>NIM Admin (Hidden Value)</b></td>
+							<td><input type="hidden" name="nim" size="20" value="1103120146" placeholder="inputkan NIM anda"</td>
+						</tr>
+						
+						<tr>
+							<td><b>NIM Pengunjung</b></td>
+							<td><input type="text" name="nim" size="20" placeholder="inputkan NIM anda"</td>
+						</tr>
+						
+						<tr>
+							<td><b>Nama</b></td>
+							<td><input type="text" name="nim" size="20" placeholder="inputkan NIM anda"</td>
+						</tr>
+						
+						<tr>
+							<td><b>Program Studi</b></td>
+							<td>
+								<select name="tgl">
+									<option>-Prodi-</option>
+										<option value="tt">S1 Teknik Telekomunikasi</option>
+										<option value="if">S1 Teknik Informatika</option>
+										<option value="ti">S1 Teknik Industri</option>
+										<option value="te">S1 Teknik Elektro</option>
+										<option value="tf">S1 Teknik Fisika</option>
+										<option value="si">S1 Sistem Informasi</option>
+										<option value="sk">S1 Sistem Komputer</option>
+										<option value="ik">S1 Ilmu Komputasi</option>
+										<option value="dll">Lain-lain</option>
+												
+							</td>
+						</tr>
+						
+						<tr>
+							<td>Apakah anda mahasiswa/mahasiswi<br>Telkom University?</td>
+							<td><input type="radio" name="ask" value="Y">Ya
+								<input type="radio" name="ask" value="N">Tidak
+							</td>
+						</tr>
+						
+						<tr>
+							<td>Bahasa pemrograman apa saja<br>yang sudah anda kuasai?</td>
+							<td>
+								<input type="checkbox" name="programming" value="java">Java<br>
+								<input type="checkbox" name="programming" value="php">PHP<br>
+								<input type="checkbox" name="programming" value="html">HTML<br>
+								<input type="checkbox" name="programming" value="cplusplus">C++<br>
+								<input type="checkbox" name="programming" value="csharp">C#<br>
+								<input type="checkbox" name="programming" value="phyton">Phyton<br>
+								<input type="checkbox" name="programming" value="ruby">Ruby<br>
+							</td>
+						<tr>
+						
+						<tr>
+							<td></td>
+							<td><input type="submit" value="submit"></td>
+						</tr>
+						
+					</tbody>
+				</table>
+				
+			</form>
+		
+		
+	</body>
 
-</body>
 </html>
