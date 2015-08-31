@@ -1,1 +1,82 @@
+<!-- myForm2.html -->
 
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>CV Sang Made Naufal</title>
+			<meta name="description" content="Task 1 RAI : HTML Form 2">
+			<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	</head>
+	
+	<body>
+			
+			<h1 style="font-size: 30px; text-align: center">Form 2: Kuisioner Pengunjung</h1>
+			
+			<br>
+			<br>
+	
+			<form action="myResult.php" method="GET">		
+			
+				<table  cellspading="40" align="center">
+					<tbody>
+						<tr>
+							<td><b>NIM Admin (Hidden Value)</b></td>
+							<td><input type="hidden" name="nim" size="20" value="1103120146" placeholder="inputkan NIM anda"</td>
+						</tr>
+						
+						<tr>
+							<td><b>NIM Pengunjung</b></td>
+							<td><input type="text" name="nim" size="20" placeholder="inputkan NIM anda"</td>
+						</tr>
+						
+						<tr>
+							<td><b>Menurut anda, apakah tampilan web ini sudah interaktif</b></td>
+							<td>
+								<select name="tgl">
+									<option>-pilihan-</option>
+										<option value="sudah">Sudah</option>
+										<option value="belum">Belum</option>												
+							</td>
+						</tr>
+						
+						<tr>
+							<td>Anda dapat memahami fungsionalitas web ini<br>dengan cepat</td>
+							<td><input type="radio" name="ask" value="spuas">Sangat puas
+								<input type="radio" name="ask" value="puas">Puas
+								<input type="radio" name="ask" value="cukup">Cukup
+								<input type="radio" name="ask" value="tpuas">Tidak puas
+								<input type="radio" name="ask" value="stpuas">Sangat tidak puas
+							</td>
+						</tr>
+						
+						<tr>
+							<td>Dari segi manakah web ini harus dibenahi?</td>
+							<td>
+								<input type="checkbox" name="saran" value="java">Warna dasar web<br>
+								<input type="checkbox" name="saran" value="php">Tata letak menu dan form<br>
+								<input type="checkbox" name="saran" value="html">font yang lebih atraktif<br>
+							</td>
+						<tr>
+						
+						<tr>
+							<td>Sampaikan harapan anda untuk pengembangan web ini di masa depan</td>
+							<td>
+								<textarea type="text" name="harapan" rows="4" placeholder="tuliskan harapan anda"></textarea>
+							</td>
+						</tr>
+						
+						<tr>
+							<td></td>
+							<td><input type="submit" value="submit"></td>
+						</tr>
+						
+					</tbody>
+				</table>
+				
+			</form>
+	
+	</body>
+
+</html>
