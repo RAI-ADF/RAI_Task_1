@@ -1,1 +1,56 @@
 
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>FORM 2</title>
+<link rel="shortcut icon" href="img/bukanjoker.png">
+</head>
+<body bgcolor="#34495e">
+	<style >
+		p,h1,h2,h3,a,pre{
+			text-decoration: none;
+			font-family: Futura Md BT;
+			color: #7f8c8d;
+		}
+	</style>
+
+	<center>
+		<h1>FORM REGISTRASI</h1> <input type="hidden" name="myNIM" value="1103120204">
+	</center>
+	
+	<form action="myResult.php" method="post">
+			<pre>
+
+				<strong>
+				Nama          : <input type="input" name="nama" required>  *
+
+				Alamat        : <textarea name="alamat" required></textarea>  *
+
+				Jenis Kelamin : <input type="radio" name="kelamin" value="Laki-Laki" required>Laki-Laki <input type="radio" name="kelamin" value="Wanita" required>Wanita  *
+				
+				Keahlian : <input type="checkbox" name="chek[]" value="leadership">Leadership <input type="checkbox" name="chek[]" value="design">Design
+						  <input type="checkbox" name="chek[]" value="web">Web 		<input type="checkbox" name="chek[]" value="android">Android
+						  <input type="checkbox" name="chek[]" value="komunikasi">Communication
+				
+				Divisi : <select>
+					<option selected value="none"><i>Select...</i>
+					<option value="hrd"><i>HRD</i>
+					<option value="pr"><i>Public Relation</i>
+					<option value="sponsor"><i>Sponsor</i>
+					<option value="timdesain"><i>Team Design</i>
+				</select>
+				</strong>	
+				*required
+
+				<input type="submit" name="sumbit" value="Submit"> <input type="reset" name="reset" value="Reset">
+			</pre>
+	</form>
+
+	  <center>
+	  	<a href="index.html"><img src="img/bukanjoker.png" style="width: 10%"></a>
+	  	<p>2015 &copy; <a href="http://bukanjoker.tumblr.com" target="_blank">Bukanjoker Production</a></p>
+	  </center>
+
+</body>
+</html>
