@@ -1,1 +1,41 @@
+<html>
+<body>
+<h1 > DATA PRIBADI </h1>
+<SCRIPT LANGUAGE="JavaScript">
+function getParams() {
+    function decode(s) {
+        return decodeURIComponent(s).split(/\+/).join(" ");
+    }
 
+    var params = {};
+
+    document.location.search.replace(
+        /\??(?:([^=]+)=([^&]*)&?)/g,
+        function () {
+            params[decode(arguments[1])] = decode(arguments[2]);
+        });
+
+    return params;
+}
+
+var params = getParams();
+document.write("nama : "+params.nama);
+document.write('<br/>');
+document.write("username : "+params.username);
+document.write('<br/>');
+document.write("kelamin : "+params.kelamin);
+document.write('<br/>');
+document.write("kelas : "+params.kelas);
+document.write('<br/>');
+document.write("deskripsi : "+params.deskripsi);
+document.write('<br/>');
+document.write("materi : "+params.materi);
+document.write('<br/>');
+document.write('<br/>');
+</script>
+<a href="index.html">Kembali ke index</a>
+<a href="myForm1.html">Kunjungi Form 1</a>
+<a href="myForm2.html">Kunjungi Form 2</a>
+<a href="myCV.html">Kunjungi CV</a>
+</body>
+</html>
