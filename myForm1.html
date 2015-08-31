@@ -1,1 +1,40 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form 1</title>
+	<style>
+	body{background-color:#C5EFF7;font-family:"Calibri"}
+	input[type=text]:focus, textarea:focus{box-shadow: 0 0 5px #CF000F;border: 1px solid #CF000F;}
+	</style>
+</head>
+<body>
+	<h1>Pendaftaran Akun Mahasiswa</h2>
+	<form action="myResult.html" method="post">
+	<div>
+		<label>Nama</label><br>
+		<input type="text" id="nama" name="nama"><br><br>
+	</div>
+	<div>
+		<label>Username</label><br>
+		<input type="text" id="user" name="user"><br><br>
+	</div>
+	<div>
+		<label>Password</label><br>
+		<input type="password" id="pass" name="pass" value="1103120127"><br><br>
+	</div>
+	<div>
+		<label>E-mail</label><br>
+		<input type="text" id="email" name="email"><br><br>
+	</div>
+	<div>
+		<label>Alamat</label><br>
+		<textarea rows="5" id="alamat" name="alamat"></textarea><br><br>
+	</div>
+	<div>
+		<input type="submit" name="submit" value="Submit">
+		<input type="reset" name="reset" value="Reset">
+	</div>
+	</form>
+</body>
+</html>
