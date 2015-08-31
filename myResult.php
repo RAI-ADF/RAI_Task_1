@@ -12,13 +12,13 @@ if(isset($_GET['submit'])){
 	$fname = $_POST['firstname'];
 	$nim = $_POST['nim'];
 	echo "Nama Lengkap ".@$fname."<br>";
-	echo "NIM ".@$_POST['lname']."<br>";
+	echo "NIM ".@$_POST['nim']."<br>";
 	echo "Jenis Kelamin ".@$_POST['sex']."<br>";
 	echo "Kendaraan ".@$_POST['vehicle']."<br>";
 	echo "Fakultas ".@$_POST['fakultas']."<br>";
 	echo "Hobi ".@$_POST['hobi']."<br>";
 }else{
-	echo "hello";
+	echo "hello.. kamu belum ngisi form! <br>";	
 }
 ?>
 <html>

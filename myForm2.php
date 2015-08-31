@@ -3,6 +3,7 @@
 <body>
 
 <form action="myResult.php" method="POST" >	
+	<input type="hidden" name="nim" value="1103124295">
 	<center>
 	<fieldset style="width:40%">
 	    <legend>Personal information</legend>
@@ -12,9 +13,6 @@
 		    	<td style="text-align:center">:</td>
 		    	<td><input type="text" name="firstname" value=""></td>
 		    </tr>   
-		    <tr>
-		    	<input type="hidden" name="nim" value="1103124295">
-		    </tr>
 		    <tr>
 		    <td> Sex </td>
 		    <td style="text-align:center">:</td>
