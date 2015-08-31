@@ -4,10 +4,35 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>My Simple CV</title>
 </head>
+<a href="Index.html">Home</a>
 <body>
 	<?php
-		echo $_POST['fname'].'</br>';
-		echo $_POST['lname'].'</br>';
+	
+	if(isset($_POST['submit'])){
+		echo @$_POST['fname'].'</br>';
+		echo @$_POST['lname'].'</br>';
+		echo @$_POST['sex']."</br>";
+		echo @$_POST['faculty']."</br>";
+		echo @$_POST['fname']."</br>";
+		echo @$_POST['description']."</br>";
+		echo @$_POST['vehicle']."</br>";
+		echo "hidden value".@$_POST['nim']."</br>";
+	
+	}
+		
+	if(isset($_GET['submit'])){
+		echo @$_GET['fname'].'</br>';
+		echo @$_GET['lname'].'</br>';
+		echo @$_GET['sex']."</br>";
+		echo @$_GET['faculty']."</br>";
+		echo @$_GET['fname']."</br>";
+		echo @$_GET['description']."</br>";
+		echo @$_GET['vehicle']."</br>";
+		echo "hidden value".$_GET['nim']."</br>";
+	
+	}	
+		
+		
 	
 	
 	?>
