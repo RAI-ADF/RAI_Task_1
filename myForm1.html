@@ -1,1 +1,70 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>My Form1</title>
+</head>
+<body>
+
+<style>
+body {background-color:lightgrey}
+
+</style>
+
+<h1><center> Biodata Diri </center></h1>
+<form align="center" method="post">
+<table align="center" border="0" style="width:50%">
+
+	<tr> 
+	<td> Nama </td>
+	<td> <input type="text" name="nama"></td>
+	</tr>
+	<tr>
+	<td> Tempat, Tanggal Lahir </td>
+	<td><input type="date" name="ttl"></td>
+	</tr>
+	<tr>
+	<td> Alamat </td>
+	<td><textarea name="ttl"></textarea></td>
+	</tr>
+	<tr>
+	<td> Jenis Kelamin </td>
+	<td>
+	<br><input type="radio" name="sex" value="male" selected> Male </br>
+	<br><input type="radio" name="sex" value="female" > Female </br>
+	</td>
+	</tr>
+	<tr>
+	<td> Pendidikan Terakhir </td>
+	<td>
+	<select name="pt">
+		<option value="sd">SD</option>
+		<option value="sd">SMP</option>
+		<option value="sd">SMA</option>
+		<option value="sd">D3</option>
+		<option value="sd">S1</option>
+		<option value="sd">S2</option>
+		<option value="sd">S3</option>
+	</select>
+	</td>
+	</tr>
+	<tr>
+	<td> Skill Bahasa Pemrograman</td>
+	<td>
+	<br><input type="checkbox" name="php">Bahasa PHP</br>
+	<br><input type="checkbox" name="c">Bahasa C/c++/c#</br>
+	<br><input type="checkbox" name="java">Bahasa Java</br>
+	</td>
+	</tr>
+	<tr></tr>
+	<tr>
+		<td><input type="submit" name="Submit" value="Submit"></td>
+		<td><a href="myResult.html"><input type="button" name="myResult" value="myResult"></a></td>
+		<td><input type="reset" name="Reset" value="Reset"></td>
+		<td><a href="Index.html"><input type="button" name="Back" value="Back"></a></td>
+	</tr>
+</table>
+</form>
+
+</body>
+</html> 
 
