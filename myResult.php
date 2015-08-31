@@ -16,7 +16,7 @@ if(isset($_GET['submit'])){
 	echo "Jenis Kelamin ".@$_POST['sex']."<br>";
 	echo "Kendaraan ".@$_POST['vehicle']."<br>";
 	echo "Fakultas ".@$_POST['fakultas']."<br>";
-	echo "Alamat ".@$_POST['alamat']."<br>";
+	echo "Hobi ".@$_POST['hobi']."<br>";
 }else{
 	echo "hello";
 }
