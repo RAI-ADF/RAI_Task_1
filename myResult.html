@@ -1,1 +1,130 @@
 
+<?php
+	$nama = htmlspecialchars($_POST['nama']);
+	$nim = htmlspecialchars($_POST['nim']);
+	$ttl = htmlspecialchars($_POST['ttl']);
+	$email = htmlspecialchars($_POST['email']);
+	$sex = htmlspecialchars($_POST['sex']);
+
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CV 1103120019</title>
+</head>
+<style type="text/css">
+#cv {
+	background : gray;
+	height : auto;
+	width : 500px;
+	margin : 0px auto;
+	border : 2px solid black;
+	border-collapse: collapse;
+	text-align : center;
+}
+#cv > #judul {
+	height : auto;
+	margin : 0px auto;
+	text-align : center;
+}
+
+td, td {
+	padding : 5px;
+}
+table, th, td{
+	border : 1px solid black;
+	border-collapse: collapse;
+}
+</style>
+<body>
+<div id="cv">
+  <div id="judul"><h2> FORM 1 </h2> </div>
+      <table width="95%" style="margin:5px auto;">
+    <tr>
+    	<th>Nama</th>
+    	<th>NIM</th>
+    	<th>TTL</th>
+    	<th>Email</th>
+    	<th>Sex</th>
+    </tr>
+    <tr>
+    	<td><?php echo $nama;?></td>
+    	<td><?php echo $nim;?></td>
+    	<td><?php echo $ttl;?></td>
+    	<td><?php echo $email;?></td>
+    	<td><?php echo $sex;?></td>
+    </tr>
+    </table>
+    <a href="index.html"><button>index</button></a>
+    
+</div>
+</body>
+</html>
+
+
+
+
+
+------------------------------------------ Result form 2 ----------------------------------------------------------------
+
+<?php
+	$jurusan = htmlspecialchars($_POST['jurusan']);
+	$kk = htmlspecialchars($_POST['kk']);
+	$mkk = htmlspecialchars($_POST['mkk']);
+  $alasan = htmlspecialchars($_POST['alasan']);
+
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CV 1103120019</title>
+</head>
+<style type="text/css">
+#cv {
+	background : gray;
+	height : auto;
+	width : 500px;
+	margin : 0px auto;
+	border : 2px solid black;
+	border-collapse: collapse;
+	text-align : center;
+}
+#cv > #judul {
+	height : auto;
+	margin : 0px auto;
+	text-align : center;
+}
+
+td, td {
+	padding : 5px;
+}
+table, th, td{
+	border : 1px solid black;
+	border-collapse: collapse;
+}
+</style>
+<body>
+<div id="cv">
+  <div id="judul"><h2> FORM 1 </h2> </div>
+      <table width="95%" style="margin:5px auto;">
+    <tr>
+    	<th>Jurusan</th>
+    	<th>KK</th>
+    	<th>Matakuliah KK</th>
+    	<th>Alasan</th>
+    </tr>
+    <tr>
+    	<td><?php echo $jurusan;?></td>
+    	<td><?php echo $kk;?></td>
+    	<td><?php echo $mkk;?></td>
+    	<td><?php echo $alasan;?></td>
+    </tr>
+    </table>
+    <a href="index.html"><button>index</button></a>
+</div>
+</body>
+</html>
