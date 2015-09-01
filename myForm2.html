@@ -1,1 +1,43 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CV 1103120019</title>
+</head>
+<style type="text/css">
+#cv {
+	background : gray;
+	height : auto;
+	width : 500px;
+	margin : 0px auto;
+	border : 2px solid black;
+	border-collapse: collapse;
+	text-align : center;
+}
+#cv > #judul {
+	height : auto;
+	margin : 0px auto;
+	text-align : center;
+}
+
+</style>
+<body>
+<div id="cv">
+  <div id="judul"><h2> FORM 2 </h2> </div>
+  <form action="myresult2.php" method="post" enctype="multipart/form-data">
+  	Jurusan : <br><input type="text" name="jurusan"></br>
+  	KK : <br><input type="text" name="kk"></br>
+  	Matakuliah KK : <br/>
+  	<input type="checkbox" name="mkk" value="rai"> RAI 
+  	<br/> <input type="checkbox" name="mkk" value="pcd">PCD
+  	<br/> <input type="checkbox" name="mkk" value="sc">Soft Computing<br/>
+  	Alasan mengambil KK : 
+  	<textarea row="4" cols="50" name="alasan"></textarea>
+  	<br/><input type="submit" value="submit" style="margin-bottom:5px;">
+    <button type="reset" value="reset">Reset</button>
+    <input type="button" value="back" onClick="history.go(-1);return true;">
+  </form>
+</div>
+</body>
+</html>
