@@ -1,1 +1,40 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CV 1103120019</title>
+</head>
+<style type="text/css">
+#cv {
+	background : gray;
+	height : auto;
+	width : 500px;
+	margin : 0px auto;
+	border : 2px solid black;
+	border-collapse: collapse;
+	text-align : center;
+}
+#cv > #judul {
+	height : auto;
+	margin : 0px auto;
+	text-align : center;
+}
+
+</style>
+<body>
+<div id="cv">
+  <div id="judul"><h2> FORM 1 </h2> </div>
+  <form action="myresult1.php" method="post" enctype="multipart/form-data">
+  	Nama : <br><input type="text" name="nama"></br>
+  	NIM : <br><input type="password" name="nim"></br>
+  	Tanggal Lahir : <br><input type="text" name="ttl"></br>
+  	Email : <br><input type="email" name="email"></br>
+  	Jenis kelamin : <br/><input type="radio" name="sex" value="male" checked>Male
+  	<br/><input type="radio" name="sex" value="female">Female
+  	<br/><input type="submit" value="submit" style="margin-bottom:5px;">
+  	<button type="reset" value="reset">Reset</button>
+  </form>
+</div>
+</body>
+</html>
