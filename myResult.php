@@ -13,7 +13,7 @@
 		}
 	</style>
 	<center>
-		<h1>Hasil Kuisioner Anda</h1>
+		<h1>Your Quisioner Result</h1>
 	</center>
 	<div style="margin-left: 200px">
 		<p>
@@ -43,7 +43,7 @@
 
 			<br>
 			<br>
-			<i>Created by <?php echo $_REQUEST['myNIM']; ?></i>
+			<i>Created by <?php echo $_REQUEST['nim']; ?></i>
 		</p>
 
 		<br>
