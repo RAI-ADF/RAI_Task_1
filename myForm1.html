@@ -1,1 +1,45 @@
-
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<h1 align="center">Fill the form below</h1>
+	</HEAD>
+	
+	<BODY>
+	<div align="center">
+		<form action="myResult.html" method="get">
+			
+			Name:<br>
+			<input type="text" name="name">
+			<br>
+			NIM:<br>
+			<input type="hidden" id="nim" value="1103120149">
+			<br>
+			<input type="radio" name="sex" value="male" checked>Male
+			<input type="radio" name="sex" value="female">Female
+			<br>
+			<br>
+			<select name="Country">
+				<option value="indonesia">Indonesia</option>
+				<option value="malaysia">Malaysia</option>
+				<option value="singapore">Singapore</option>
+				<option value="myanmar">Myanmar</option>
+			</select>
+			<br>
+			<br>
+			Comment:<br>
+			<textarea name="message" rows="10" cols="30">
+			
+			</textarea>
+			<br>
+			<br>
+			 <input type="checkbox" name="status" value="single"> Single <br>
+			 <input type="checkbox" name="status" value="relationship" checked> In relationship<br>
+			 <br>
+			<input type="submit" value="Submit">
+			<button type="reset" value="Reset">Reset</button>
+			
+			
+		</form>
+		</div>
+	</BODY>
+</HTML>
