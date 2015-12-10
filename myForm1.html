@@ -1,1 +1,38 @@
-
+<!DOCTYPE html>
+<html>
+<head><title>Form #1</title></head>
+<body>
+<table border="4" bgcolor="mintcream" align="center" height="500" width="600" cellpadding="10">
+<tr>
+<td>
+    <b><font size="4">SURVEY ANGKUTAN UMUM</font></b>
+<form action="myResult.html" method="get" target="_blank">
+    <br>Nama:<br>
+    <input type="text" name="namadepan" placeholder="Nama Depan" size="15">
+    <input type="text" name="namabelakang" placeholder="Nama Belakang" size="30"><br><br>
+    Jenis Kelamin:<br>
+    <input type="radio" name="jeniskelamin" value="laki-laki">Laki-Laki
+    <input type="radio" name="jeniskelamin" value="perempuan">Perempuan<br><br>
+    Alamat:<br>
+    <textarea rows="4" cols="39"></textarea><br><br>
+    Seberapa sering Anda menggunakan angkutan umum?<br>
+    <select>
+        <option></option>
+        <option value="tidak pernah">Tidak Pernah</option>
+        <option value="jarang">Jarang</option>
+        <option value="sering">Sering</option>
+        <option value="selalu">Selalu</option>
+    </select><br><br>
+    Apa saja jenis kendaraan umum yang biasa Anda gunakan?<br>
+    <input type="checkbox" name="kendaraan" value="angkot">Angkutan Kota<br>
+    <input type="checkbox" name="kendaraan" value="bus">Bus Kota<br>
+    <input type="checkbox" name="kendaraan" value="motor">Ojek Motor<br><br>
+    <button type="submit" value="Submit">Submit</button>
+    <button type="reset" value="Reset">Reset</button><br><br>
+    <input type="hidden" name="nim" value="1103120216"><br><br>
+</form>
+</td>
+</tr>
+</table>
+</body>
+</html>
